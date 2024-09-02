@@ -1,3 +1,12 @@
+Version 0.6.2 (2024-09-02)
+++++++++++++++++++++++++++
+
+Fixed
+.....
+
+* Update versioneer to support recent Python versions.
+
+
 Version 0.6.1 (2024-02-28)
 ++++++++++++++++++++++++++
 
