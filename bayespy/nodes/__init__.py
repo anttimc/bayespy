@@ -95,6 +95,7 @@ Deterministic nodes
    Gate
    Take
    Function
+   Concatenate
    ConcatGaussian
    Choose
 """
