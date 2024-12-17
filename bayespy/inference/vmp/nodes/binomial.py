@@ -27,7 +27,7 @@ from bayespy.utils import misc, random
 
 
 class BinomialMoments(PoissonMoments):
-    """
+    r"""
     Class for the moments of binomial variables
     """
 
@@ -59,7 +59,7 @@ class BinomialMoments(PoissonMoments):
 
 
 class BinomialDistribution(ExponentialFamilyDistribution):
-    """
+    r"""
     Class for the VMP formulas of binomial variables.
     """
 

@@ -23,7 +23,7 @@ from bayespy.utils import misc
 
 
 class CategoricalMoments(MultinomialMoments):
-    """
+    r"""
     Class for the moments of categorical variables.
     """
 
@@ -72,7 +72,7 @@ class CategoricalMoments(MultinomialMoments):
 
 
 class CategoricalDistribution(MultinomialDistribution):
-    """
+    r"""
     Class for the VMP formulas of categorical variables.
     """
 

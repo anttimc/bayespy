@@ -21,7 +21,7 @@ from .node import Moments, ensureparents
 
 
 class BetaMoments(DirichletMoments):
-    """
+    r"""
     Class for the moments of beta variables.
     """
 
@@ -48,7 +48,7 @@ class BetaMoments(DirichletMoments):
 
 
 class BetaDistribution(DirichletDistribution):
-    """
+    r"""
     Class for the VMP formulas of beta variables.
 
     Although the realizations are scalars (probability p), the moments is a
@@ -189,7 +189,7 @@ class Beta(Dirichlet):
 
 
 class Complement(Deterministic):
-    """
+    r"""
     Perform 1-p where p is a Beta node.
     """
 

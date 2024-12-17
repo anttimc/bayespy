@@ -13,7 +13,7 @@ from .deterministic import Deterministic
 from .node import Moments
 
 class Concatenate(Deterministic):
-    """
+    r"""
     Concatenate similar nodes along a plate axis.
 
     Nodes must be of same type and dimensionality. Also, plates must be

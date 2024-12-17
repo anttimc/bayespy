@@ -374,7 +374,7 @@ def sum_to_plates(V, plates_to, plates_from=None, ndim=0):
         return r * misc.sum_to_shape(V, shape_to)
 
 class RotateGaussianARD():
-    """
+    r"""
     Rotation parameter expansion for :class:`bayespy.nodes.GaussianARD`
     
     The model:
@@ -1542,7 +1542,7 @@ class RotateVaryingMarkovChain(RotateGaussianMarkovChain):
 
 
 class RotateSwitchingMarkovChain(RotateGaussianMarkovChain):
-    """
+    r"""
     Rotation for :class:`bayespy.nodes.VaryingGaussianMarkovChain`
 
     Assume the following model.

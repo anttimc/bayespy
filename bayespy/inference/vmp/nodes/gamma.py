@@ -23,7 +23,7 @@ from bayespy.utils import random
 
 
 def diagonal(alpha):
-    """
+    r"""
     Create a diagonal Wishart node from a Gamma node.
     """
     return _GammaToDiagonalWishart(alpha,
@@ -31,7 +31,7 @@ def diagonal(alpha):
 
 
 class GammaPriorMoments(Moments):
-    """
+    r"""
     Class for the moments of the shape parameter in gamma distributions.
     """
 
@@ -60,7 +60,7 @@ class GammaPriorMoments(Moments):
 
 
 class GammaMoments(Moments):
-    """
+    r"""
     Class for the moments of gamma variables.
     """
 
@@ -88,7 +88,7 @@ class GammaMoments(Moments):
 
 
 class GammaDistribution(ExponentialFamilyDistribution):
-    """
+    r"""
     Class for the VMP formulas of gamma variables.
     """
 
@@ -212,7 +212,7 @@ class GammaDistribution(ExponentialFamilyDistribution):
 
 
 class Gamma(ExponentialFamily):
-    """
+    r"""
     Node for gamma random variables.
 
     Parameters
@@ -271,7 +271,7 @@ class Gamma(ExponentialFamily):
 
 
 class GammaShape(Stochastic):
-    """
+    r"""
     ML point estimator for the shape parameter of the gamma distribution
     """
 
@@ -335,7 +335,7 @@ class GammaShape(Stochastic):
 
 
 class _GammaToDiagonalWishart(Deterministic):
-    """
+    r"""
     Transform a set of gamma scalars into a diagonal Wishart matrix.
 
     The last plate is used as the diagonal dimension.
@@ -397,7 +397,7 @@ class _GammaToDiagonalWishart(Deterministic):
 
 
 class _GammaToScalarWishart(Deterministic):
-    """
+    r"""
     Transform gamma scalar moments to ndim=0 scalar Wishart moments
     """
 

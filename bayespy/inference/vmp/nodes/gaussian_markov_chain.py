@@ -66,7 +66,7 @@ class GaussianMarkovChainMoments(Moments):
 
 
 class TemplateGaussianMarkovChainDistribution(ExponentialFamilyDistribution):
-    """
+    r"""
     Sub-classes implement distribution specific computations.
     """
 
@@ -250,7 +250,7 @@ class _TemplateGaussianMarkovChain(ExponentialFamily):
 
 def _compute_cgf_for_gaussian_markov_chain(mumu_Lambda, logdet_Lambda,
                                            logdet_nu, N):
-    """
+    r"""
     Compute CGF using the moments of the parents.
     """
 
@@ -928,7 +928,7 @@ class GaussianMarkovChain(_TemplateGaussianMarkovChain):
 
 
 class VaryingGaussianMarkovChainDistribution(TemplateGaussianMarkovChainDistribution):
-    """
+    r"""
     Sub-classes implement distribution specific computations.
     """
 
@@ -1452,7 +1452,7 @@ class VaryingGaussianMarkovChain(_TemplateGaussianMarkovChain):
 
 
 class SwitchingGaussianMarkovChainDistribution(TemplateGaussianMarkovChainDistribution):
-    """
+    r"""
     Sub-classes implement distribution specific computations.
     """
 
@@ -1986,7 +1986,7 @@ class SwitchingGaussianMarkovChain(_TemplateGaussianMarkovChain):
 
 
 class _MarkovChainToGaussian(Deterministic):
-    """
+    r"""
     Transform a Gaussian Markov chain node into a Gaussian node.
 
     This node is deterministic.

@@ -24,7 +24,7 @@ from .categorical import Categorical, \
                          CategoricalMoments
 
 class MixtureDistribution(ExponentialFamilyDistribution):
-    """
+    r"""
     Class for the VMP formulas of mixture variables.
     """
 
@@ -546,7 +546,7 @@ class Mixture(ExponentialFamily):
 
 
 def MultiMixture(thetas, *mixture_args, **kwargs):
-    """Creates a mixture over several axes using as many categorical variables.
+    r"""Creates a mixture over several axes using as many categorical variables.
 
     The mixings are assumed to be separate, that is, inner mixings don't affect
     the parameters of outer mixings.

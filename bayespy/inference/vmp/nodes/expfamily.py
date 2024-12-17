@@ -15,7 +15,7 @@ from .node import ensureparents
 from .stochastic import Stochastic, Distribution
 
 class ExponentialFamilyDistribution(Distribution):
-    """
+    r"""
     Sub-classes implement distribution specific computations.
     """
 
@@ -92,7 +92,7 @@ def useconstructor(__init__):
     return constructor_decorator
 
 class ExponentialFamily(Stochastic):
-    """
+    r"""
     A base class for nodes using natural parameterization `phi`.
 
     phi

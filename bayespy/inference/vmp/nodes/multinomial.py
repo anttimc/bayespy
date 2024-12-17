@@ -24,7 +24,7 @@ from bayespy.utils import linalg
 
 
 class MultinomialMoments(Moments):
-    """
+    r"""
     Class for the moments of multinomial variables.
     """
 
@@ -60,7 +60,7 @@ class MultinomialMoments(Moments):
 
 
 class MultinomialDistribution(ExponentialFamilyDistribution):
-    """
+    r"""
     Class for the VMP formulas of multinomial variables.
     """
 

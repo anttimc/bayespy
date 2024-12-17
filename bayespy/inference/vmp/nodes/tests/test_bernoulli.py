@@ -22,7 +22,7 @@ from bayespy.utils.misc import TestCase
 
 
 class TestBernoulli(TestCase):
-    """
+    r"""
     Unit tests for Bernoulli node
     """
 

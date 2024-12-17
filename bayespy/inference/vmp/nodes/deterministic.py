@@ -14,7 +14,7 @@ from bayespy.utils import misc
 from .node import Node, Moments
 
 class Deterministic(Node):
-    """
+    r"""
     Base class for deterministic nodes.
 
     Sub-classes must implement:
@@ -154,7 +154,7 @@ class Deterministic(Node):
 
 
 def tile(X, tiles):
-    """
+    r"""
     Tile the plates of the input node.
 
     x = [a,b,c]

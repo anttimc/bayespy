@@ -22,7 +22,7 @@ from bayespy.utils import misc
 
 
 class PoissonMoments(Moments):
-    """
+    r"""
     Class for the moments of Poisson variables
     """
 
@@ -53,7 +53,7 @@ class PoissonMoments(Moments):
 
 
 class PoissonDistribution(ExponentialFamilyDistribution):
-    """
+    r"""
     Class for the VMP formulas of Poisson variables.
     """
 
@@ -129,7 +129,7 @@ class PoissonDistribution(ExponentialFamilyDistribution):
 
 
 class Poisson(ExponentialFamily):
-    """
+    r"""
     Node for Poisson random variables.
 
     The node uses Poisson distribution:

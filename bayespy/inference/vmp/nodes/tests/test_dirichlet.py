@@ -19,7 +19,7 @@ from bayespy.utils import random
 from bayespy.utils.misc import TestCase
 
 class TestDirichlet(TestCase):
-    """
+    r"""
     Unit tests for Dirichlet node
     """
 

@@ -23,7 +23,7 @@ from .node import Node, Moments, ensureparents
 
 
 class ConcentrationMoments(Moments):
-    """
+    r"""
     Class for the moments of Dirichlet conjugate-prior variables.
     """
 
@@ -63,7 +63,7 @@ class ConcentrationMoments(Moments):
 
 
 class DirichletMoments(Moments):
-    """
+    r"""
     Class for the moments of Dirichlet variables.
     """
 
@@ -105,7 +105,7 @@ class DirichletMoments(Moments):
 
 
 class DirichletDistribution(ExponentialFamilyDistribution):
-    """
+    r"""
     Class for the VMP formulas of Dirichlet variables.
     """
 

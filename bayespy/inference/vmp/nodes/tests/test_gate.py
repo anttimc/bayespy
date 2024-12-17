@@ -27,7 +27,7 @@ from bayespy.utils.misc import TestCase
 
 
 class TestGate(TestCase):
-    """
+    r"""
     Unit tests for Gate node.
     """
 

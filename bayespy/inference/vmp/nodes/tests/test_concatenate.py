@@ -23,7 +23,7 @@ from bayespy.utils.misc import TestCase
 
 
 class TestConcatenate(TestCase):
-    """
+    r"""
     Unit tests for Concatenate node.
     """
     

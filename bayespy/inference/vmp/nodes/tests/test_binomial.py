@@ -22,7 +22,7 @@ from bayespy.utils.misc import TestCase
 
 
 class TestBinomial(TestCase):
-    """
+    r"""
     Unit tests for Binomial node
     """
 

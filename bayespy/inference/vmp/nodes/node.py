@@ -15,7 +15,7 @@ This module contains a sketch of a new implementation of the framework.
 """
 
 def message_sum_multiply(plates_parent, dims_parent, *arrays):
-    """
+    r"""
     Compute message to parent and sum over plates.
 
     Divide by the plate multiplier.
@@ -48,7 +48,7 @@ def message_sum_multiply(plates_parent, dims_parent, *arrays):
 
 
 class Moments():
-    """
+    r"""
     Base class for defining the expectation of the sufficient statistics.
 
     The benefits:
@@ -221,7 +221,7 @@ def ensureparents(func):
 
 
 class Node():
-    """
+    r"""
     Base class for all nodes.
 
     mask

@@ -1013,7 +1013,7 @@ class TestSumMultiply(TestCase):
 
 
 def check_performance(scale=1e2):
-    """
+    r"""
     Tests that the implementation of SumMultiply is efficient.
 
     This is not a unit test (not run automatically), but rather a

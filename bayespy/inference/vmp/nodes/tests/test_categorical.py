@@ -26,7 +26,7 @@ from bayespy.utils.misc import TestCase
 
 
 class TestCategorical(TestCase):
-    """
+    r"""
     Unit tests for Categorical node
     """
 

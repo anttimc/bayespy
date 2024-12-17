@@ -14,7 +14,7 @@ import h5py
 from .node import Node
 
 class Distribution():
-    """
+    r"""
     A base class for the VMP formulas of variables.
 
     Sub-classes implement distribution specific computations.
@@ -81,7 +81,7 @@ class Distribution():
 
 
 class Stochastic(Node):
-    """
+    r"""
     Base class for nodes that are stochastic.
 
     u

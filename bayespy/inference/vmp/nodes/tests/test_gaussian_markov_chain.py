@@ -27,7 +27,7 @@ from bayespy.utils.misc import TestCase
 
 
 def kalman_filter(y, U, A, V, mu0, Cov0, out=None):
-    """
+    r"""
     Perform Kalman filtering to obtain filtered mean and covariance.
 
     The parameters of the process may vary in time, thus they are
@@ -96,7 +96,7 @@ def kalman_filter(y, U, A, V, mu0, Cov0, out=None):
 
 
 def rts_smoother(mu, Cov, A, V, removethis=None):
-    """
+    r"""
     Perform Rauch-Tung-Striebel smoothing to obtain the posterior.
 
     The function returns the posterior mean and covariance of each

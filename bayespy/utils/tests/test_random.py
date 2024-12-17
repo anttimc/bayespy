@@ -62,7 +62,7 @@ class TestCeilDiv(misc.TestCase):
 
 
 class TestDirichlet(misc.TestCase):
-    """
+    r"""
     Unit tests for the Dirichlet random sampling
     """
 

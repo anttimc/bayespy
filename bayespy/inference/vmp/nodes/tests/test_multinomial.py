@@ -22,7 +22,7 @@ from bayespy.utils.misc import TestCase
 
 
 class TestMultinomial(TestCase):
-    """
+    r"""
     Unit tests for Multinomial node
     """
 

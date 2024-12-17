@@ -116,7 +116,7 @@ class WishartMoments(Moments):
 
 
 class WishartDistribution(ExponentialFamilyDistribution):
-    """
+    r"""
     Sub-classes implement distribution specific computations.
 
     Distribution for :math:`k \times k` symmetric positive definite matrix.

@@ -25,7 +25,7 @@ from bayespy.utils import misc
 
 
 class CategoricalDistribution(MultinomialDistribution):
-    """
+    r"""
     Class for the VMP formulas of categorical variables.
     """
 

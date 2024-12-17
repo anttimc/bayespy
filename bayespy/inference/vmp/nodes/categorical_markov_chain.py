@@ -24,7 +24,7 @@ from .dirichlet import (Dirichlet,
 from bayespy.utils import misc, random
 
 class CategoricalMarkovChainMoments(Moments):
-    """
+    r"""
     Class for the moments of categorical Markov chain variables.
     """
 
@@ -77,7 +77,7 @@ class CategoricalMarkovChainMoments(Moments):
 
 
 class CategoricalMarkovChainDistribution(ExponentialFamilyDistribution):
-    """
+    r"""
     Class for the VMP formulas of categorical Markov chain variables.
     """
 
@@ -358,7 +358,7 @@ class CategoricalMarkovChain(ExponentialFamily):
 
 
 class CategoricalMarkovChainToCategorical(Deterministic):
-    """
+    r"""
     A node for converting categorical MC moments to categorical moments.
     """
 

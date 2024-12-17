@@ -919,7 +919,7 @@ class TestGaussianARD(TestCase):
 
 
 class TestGaussianGamma(TestCase):
-    """
+    r"""
     Unit tests for GaussianGamma node.
     """
 
@@ -1179,7 +1179,7 @@ class TestGaussian(TestCase):
 
 
 class TestGaussianGradient(TestCase):
-    """Numerically check Riemannian gradient of several nodes.
+    r"""Numerically check Riemannian gradient of several nodes.
 
     Using VB-EM update equations will take a unit length step to the
     Riemannian gradient direction.  Thus, the change caused by a VB-EM

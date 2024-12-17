@@ -19,7 +19,7 @@ from .concatenate import Concatenate
 
 
 class Gate(Deterministic):
-    """
+    r"""
     Deterministic gating of one node.
 
     Gating is performed over one plate axis.
@@ -217,7 +217,7 @@ class Gate(Deterministic):
 
 
 def Choose(z, *nodes):
-    """Choose plate elements from nodes based on a categorical variable.
+    r"""Choose plate elements from nodes based on a categorical variable.
 
     For instance:
 

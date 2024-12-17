@@ -21,7 +21,7 @@ from bayespy.utils.misc import TestCase
 
 
 class TestPoisson(TestCase):
-    """
+    r"""
     Unit tests for Poisson node
     """
 

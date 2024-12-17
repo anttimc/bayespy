@@ -19,7 +19,7 @@ from bayespy.utils import random
 from bayespy.utils.misc import TestCase
 
 class TestBeta(TestCase):
-    """
+    r"""
     Unit tests for Beta node
     """
 

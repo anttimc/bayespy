@@ -634,7 +634,7 @@ class SumMultiply(Deterministic):
 
 
 def Dot(*args, **kwargs):
-    """
+    r"""
     Node for computing inner product of several Gaussian vectors.
 
     This is a simple wrapper of the much more general SumMultiply. For now, it

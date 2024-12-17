@@ -19,7 +19,7 @@ from .node import Moments
 
 
 class BernoulliMoments(BinomialMoments):
-    """
+    r"""
     Class for the moments of Bernoulli variables.
     """
 
@@ -29,7 +29,7 @@ class BernoulliMoments(BinomialMoments):
 
 
 class BernoulliDistribution(BinomialDistribution):
-    """
+    r"""
     Class for the VMP formulas of Bernoulli variables.
     """
 
@@ -114,7 +114,7 @@ from .deterministic import Deterministic
 from .categorical import Categorical, CategoricalMoments
 
 class CategoricalToBernoulli(Deterministic):
-    """
+    r"""
     A node for converting 2-class categorical moments to Bernoulli moments.
     """
 
